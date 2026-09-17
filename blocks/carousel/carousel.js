@@ -3,7 +3,7 @@ import { createOptimizedPicture } from '../../scripts/aem.js';
 export default function decorate(block) {
   const slides = [...block.children];
   block.classList.add('carousel');
-
+debugger;
   // build slide track
   const track = document.createElement('div');
   track.className = 'carousel-track';
