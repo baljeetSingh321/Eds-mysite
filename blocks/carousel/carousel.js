@@ -1,13 +1,13 @@
 import { createOptimizedPicture } from '../../scripts/aem.js';
-
+debugger;
 export default function decorate(block) {
   const slides = [...block.children];
   block.classList.add('carousel');
-debugger;
+
   // build slide track
   const track = document.createElement('div');
   track.className = 'carousel-track';
-
+debugger;
   const dotsWrap = document.createElement('div');
   dotsWrap.className = 'carousel-dots';
 
@@ -23,7 +23,7 @@ debugger;
     }
 
     track.append(row);
-
+debugger;
     // dot for this slide
     const dot = document.createElement('button');
     dot.className = 'carousel-dot';
